@@ -1,3 +1,10 @@
+# Calendary App
+Demo: [Calendary](https://calendar-mern-silvestre.herokuapp.com/)
+
+This repository is only Front End Files
+
+App made using ReactJs, moment, Big Calendar, Bootstrap, Mongoose, MongoDB, Redux, React Router
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

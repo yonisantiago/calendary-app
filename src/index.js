@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+//import ReactDOM from 'react-dom'; // react 17
+import { BrowserRouter } from "react-router-dom";
+import { CalendarApp } from "./CalendarApp";
+import { createRoot } from "react-dom/client"; //used in react 18
+import "./styles.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+//console.log(process.env);
+//REACT 18
+const container = document.getElementById("root");
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(
+  <BrowserRouter>
+    <CalendarApp />
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//REACT 17
+// ReactDOM.render(
+//   <BrowserRouter>
+//     <CalendarApp />
+//   </BrowserRouter>,
+//   document.getElementById('root')
+// );
