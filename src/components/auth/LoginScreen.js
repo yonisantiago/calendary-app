@@ -52,7 +52,7 @@ export const LoginScreen = () => {
       <div className="row">
         <div className="col-md-12 px-4 py-5 my-2 text-center ">
         <img className="img" src="https://www.svgrepo.com/show/301616/monthly-calendar-daily-calendar.svg" alt="calendar icon" width="100" height="100"></img>
-          <h1 className="display-5 mt-2 fw-bold">Welcome to Calendary </h1>
+          <h1 className="display-5 mt-2 fw-bold">Welcome to Calendari </h1>
           <p className="lead mb-1">Calendary is a Calendar App where you can save your events and share with other. Made with React.JS, MongoDB, Heroku, NodeJS, MomentJs, Big Calendar, Swal Alerts, Mongoose, Bootstrap and FontAwesome. Made with <i class="fa-solid fa-heart"></i> by <a href="https://github.com/yonisantiago">Yoni Silvestre</a> </p>
         </div>
         
